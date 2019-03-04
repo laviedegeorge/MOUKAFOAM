@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+button{
+    appearance: none;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #e5e5e5;
+    font-family:'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    height: 70%;
+    width: 80%;
+    text-align: center;
+}
+.main-heading{
+    font-size: 30px;
+    color: #737373;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+.main-heading > span {
+    color: #5652ff;
+    font-size: 33px;
+    font-weight: bold;
+}
+.sub-heading{
+    font-size: 15px;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+.types{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.type{
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    /* transition: 5s; */
+}
+.typei{
+    background: url(1.svg) left bottom, #ffffff;  
+    background-repeat: no-repeat;
+}
+.typeii{
+    background: url(2.svg) left bottom, #ffffff;  
+    background-repeat: no-repeat;
+}
+.typeiii{
+    background: url(3.svg) left top,url(6.svg) left bottom,url(5.svg) left bottom,url(4.svg) left bottom,  #ffffff;  
+    background-repeat: no-repeat;
+}
+/* .typei:hover{
+    margin-bottom:20px;
+} */
+.type:hover .add-to-cart{
+    display: block;
+}
+.add-to-cart{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    position: relative;
+    top: -35px;
+    left: 260px;
+    display: none;
+    /* transition: 5s; */
+}
+.header{
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+    color: #435e72;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.sub{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0,0,0,0.5);
+    font-size: 25px;
+    text-transform: uppercase;
+}
